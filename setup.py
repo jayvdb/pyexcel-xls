@@ -24,10 +24,16 @@ KEYWORDS = [
 INSTALL_REQUIRES = [
     'pyexcel-io>=0.1.0',
     'xlrd',
-    'xlwt-future',
 ]
 
-EXTRAS_REQUIRE = {}
+EXTRAS_REQUIRE = {
+  'python_version<"3"': [
+    'xlwt'
+  ],
+  'python_version>="3"': [
+    'xlwt-future'
+  ],
+}
 
 CLASSIFIERS = [
     'Topic :: Office/Business',

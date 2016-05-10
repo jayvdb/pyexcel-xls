@@ -28,6 +28,7 @@ matrix:
 install:
   - if [[ $TRAVIS_PYTHON_VERSION == "2.6" ]]; then pip install ordereddict; fi
   - pip install nose nose-cov codecov coverage pyexcel
+  - pip install setuptools>=17.1
 script:
   - python setup.py install
   - make test

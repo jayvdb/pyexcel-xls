@@ -27,10 +27,10 @@ INSTALL_REQUIRES = [
 ]
 
 EXTRAS_REQUIRE = {
-  'python_version<"3"': [
+  ':python_version<"3"': [
     'xlwt'
   ],
-  'python_version>="3"': [
+  ':python_version>="3"': [
     'xlwt-future'
   ],
 }

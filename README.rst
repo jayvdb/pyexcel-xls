@@ -13,7 +13,7 @@ pyexcel-xls - Let you focus on data, instead of xls format
 Known constraints
 ==================
 
-Fonts, colors and charts are not supported.
+Fonts, colors and charts are not supported. 
 
 Installation
 ================================================================================

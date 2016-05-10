@@ -9,7 +9,7 @@ targets:
   - setup.py: setup.py
   - "docs/source/conf.py": "docs/source/conf.py.jj2"
   - .travis.yml: travis.yml
-  - requirements.txt: requirements.txt
+  - requirements.txt: requirements.txt.jj2
   - LICENSE: LICENSE.jj2
   - MANIFEST.in: MANIFEST.in.jj2
   - "tests/requirements.txt": "tests/requirements.txt"

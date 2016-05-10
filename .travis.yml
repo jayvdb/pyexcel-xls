@@ -25,9 +25,9 @@ matrix:
             - python-coverage
             - python-nose
             - python-mock
-before_install:
+install:
   - if [[ $TRAVIS_PYTHON_VERSION == "2.6" ]]; then pip install ordereddict; fi
-  - pip install nose nose-cov codecov coverage
+  - pip install nose nose-cov codecov coverage pyexcel
 script:
   - python setup.py install
   - make test
